@@ -6,7 +6,7 @@ CREATE TABLE student(
     email TEXT,
     address TEXT,
     dob TEXT,
-    phone INTEGER
+    phone BIGINT
 );
 
 CREATE TABLE teacher (
@@ -15,7 +15,7 @@ CREATE TABLE teacher (
     email TEXT,
     address TEXT,
     dob TEXT,
-    phone INTEGER
+    phone BIGINT
 );
 
 CREATE TABLE course (
